@@ -12,6 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
+         System.out.println("Prueba de system out");
         return "Hola mundo desde mi repo con MS! Marco Version2!!";
     }
 
