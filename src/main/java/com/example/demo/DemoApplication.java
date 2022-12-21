@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hola mundo desde mi repo con MS! Marco";
+        return "Hola mundo desde mi repo con MS! Marco Version2!!";
     }
 
     public static void main(String[] args) {
